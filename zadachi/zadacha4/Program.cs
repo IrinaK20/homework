@@ -1,10 +1,10 @@
 ﻿//принимает 3 числа и выдает max из этих чисел
 
-Console.Write("введите первое чисо: ");
+Console.Write("введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("введите второе чисо: ");
+Console.Write("введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
-Console.Write("введите третье чисо: ");
+Console.Write("введите третье число: ");
 int c = Convert.ToInt32(Console.ReadLine());
 
 int max=a;
