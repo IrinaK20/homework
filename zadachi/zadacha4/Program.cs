@@ -9,7 +9,14 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 int max=a;
 
+/*Так как у нас есть присвоение
+int max=a;
+то проверку условия
 if(a>max) max=a;
+можем удалить, так как переменная а никогда не сможет стать больше.
+
+if(a>max) max=a;        
+                  */
 if(b>max) max=b;
 if(c>max) max=c;
 
