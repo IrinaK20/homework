@@ -48,6 +48,8 @@ for (int i = 0; i < multiMatrix.GetLength(0); i++)
         multiMatrix[i, j] = firstMatrix[i, j] * secondMatrix[i, j];
     };
 }
+
+
 Console.WriteLine($"Произведение первой и второй матрицы ");
 PrintMatrix(multiMatrix);
 
